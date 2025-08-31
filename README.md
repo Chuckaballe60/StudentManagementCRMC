@@ -33,11 +33,11 @@ How to Use:
 This School Management System offers a comprehensive solution for managing student admissions and records, simplifying the administrative tasks of Mao Public School. With the power of Python and MySQL, it ensures data accuracy and accessibility, making the management of student information efficient and reliable.
 
 
-##FOR YOUTUBE RESOURCES TO PRACTICE
+## FOR YOUTUBE RESOURCES TO PRACTICE
 
 https://www.youtube.com/watch?v=elWvom3F2tQ&t=16s
 
-##✨ Features
+## ✨ Features
 Add new records: Insert details like name, address, phone number, age, and gender into the database.
 
 Delete records: Remove records from the database by specifying a user name.
@@ -48,7 +48,7 @@ View all records: Retrieve and display all entries stored in the database.
 
 Interactive menu: Simple text-based interface for smooth navigation.
 
-##🛠️ Requirements
+## 🛠️ Requirements
 
 Python 3.x
 
@@ -56,7 +56,7 @@ MySQL Server
 
 MySQL Connector for Python (mysql-connector-python)
 
-🚀 Setup Instructions
+## 🚀 Setup Instructions
 
 Clone the Repository
 
@@ -102,7 +102,7 @@ python your_script_name.py
 
 Follow the Menu Options Use the menu displayed in the terminal to interact with the system.
 
-##📋 Usage
+## 📋 Usage
 Launch the script.
 
 Choose an option from the menu to add, delete, update, or view records.
@@ -110,6 +110,7 @@ Choose an option from the menu to add, delete, update, or view records.
 Enter the required details as prompted.
 
 Continue or exit as needed.    
+
 
 
 
