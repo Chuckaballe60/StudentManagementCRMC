@@ -31,3 +31,57 @@ How to Use:
 - They follow the on-screen prompts to perform actions such as adding, viewing, searching, updating, or deleting student records.
 
 This School Management System offers a comprehensive solution for managing student admissions and records, simplifying the administrative tasks of Mao Public School. With the power of Python and MySQL, it ensures data accuracy and accessibility, making the management of student information efficient and reliable.
+
+
+FOR YOUTUBE RESOURCES TO PRACTICE
+https://www.youtube.com/watch?v=elWvom3F2tQ&t=16s
+
+✨ Features
+Add new records: Insert details like name, address, phone number, age, and gender into the database.
+Delete records: Remove records from the database by specifying a user name.
+Update records: Modify details such as name, address, phone number, age, or gender for an existing record.
+View all records: Retrieve and display all entries stored in the database.
+Interactive menu: Simple text-based interface for smooth navigation.
+🛠️ Requirements
+Python 3.x
+MySQL Server
+MySQL Connector for Python (mysql-connector-python)
+🚀 Setup Instructions
+Clone the Repository
+
+git clone <repository-url>
+cd <repository-folder>
+Install Required Libraries Install the MySQL Connector library using pip:
+
+pip install mysql-connector-python
+Set Up the MySQL Database
+
+Create a database in MySQL named Ak1:
+CREATE DATABASE Ak1;
+Create the required table:
+CREATE TABLE ShopperLog (
+    name VARCHAR(255),
+    address VARCHAR(255),
+    phone VARCHAR(10),
+    age VARCHAR(100),
+    gender VARCHAR(255)
+);
+Update Database Credentials Open the Python script and update the following section with your MySQL credentials:
+
+mydb = mysql.connector.connect(
+    host="localhost",
+    user="root",
+    password="your_password",
+    database="Ak1"
+)
+Run the Application Execute the script in your terminal:
+
+python your_script_name.py
+Follow the Menu Options Use the menu displayed in the terminal to interact with the system.
+
+📋 Usage
+Launch the script.
+Choose an option from the menu to add, delete, update, or view records.
+Enter the required details as prompted.
+Continue or exit as needed.    
+
